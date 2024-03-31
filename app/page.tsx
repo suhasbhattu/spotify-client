@@ -30,7 +30,7 @@ const LoginPage = () => {
             priority
           />
           <Link
-            href={"http://localhost:5000/auth/login"}
+            href={"https://spotify-server-nine.vercel.app/auth/login"}
             className="spotifyButton spotifyColor py-2 px-5 rounded-md"
           >
             Login with Spotify

@@ -84,7 +84,7 @@ const HomePage = () => {
         </div>
         <div className="flex justify-end gap-8">
           <span className="text-md">{userName}</span>
-          <Link href={"http://localhost:5000/auth/logout"}>Sign Out</Link>
+          <Link href={"https://spotify-server-nine.vercel.app/auth/logout"}>Sign Out</Link>
         </div>
       </div>
       <div className="content px-40 my-10 overflow-scroll">
